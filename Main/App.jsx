@@ -1,4 +1,4 @@
-import Nav from 'Components/Nav.jsx'
+import Nav from '/Components/nav.jsx'
 function App(){
     return(
         <div>
