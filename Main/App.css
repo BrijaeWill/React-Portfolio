@@ -1,0 +1,42 @@
+/* Main Navbar Container */
+.navbar-container {
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    background-color: #1A2F4C;
+    height: 80px; 
+    position: relative;
+  }
+  /* Developer Heading */
+.navbar-brand {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 2rem;
+    flex-shrink: 0; 
+  }
+/* Navigation Links */
+.nav-links {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 1.5rem; 
+  }
+  
+  .nav-item .nav-link {
+    color: #fff; 
+    font-size: 1.2rem; 
+    text-decoration: none;
+  }
+  
+  .nav-item .nav-link:hover {
+    color: #ffcc00; 
+  }
+  
+
+  @media (min-width: 992px) {
+    .navbar-container {
+      padding: 0 4rem; 
+    }
+  }  
