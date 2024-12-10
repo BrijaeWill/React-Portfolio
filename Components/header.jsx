@@ -15,6 +15,7 @@ function Header() {
         {/* Navbar links */}
         <Nav />
       </header>
+    
     );
   }
 
