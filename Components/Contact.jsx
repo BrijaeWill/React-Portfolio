@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Header from './Header';  // Assuming your Header component is here
+import Header from '/Components/header.jsx'
 
 const Contact = () => {
   // State for form data
