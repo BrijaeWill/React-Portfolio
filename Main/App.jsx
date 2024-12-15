@@ -3,6 +3,7 @@ import Footer from '../Components/footer.jsx'
 import About from'../Components/About.jsx'
 import Contact from'../Components/Contact.jsx'
 import Projects from '../Components/project.jsx'
+import Resume from '../Components/Resume.jsx'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import '/Main/App.css'
 function App() {
@@ -16,6 +17,7 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/portfolio" element={<Projects />} />
+              <Route path="/resume" element={<Resume />} />
             </Routes>
           </main>
   
