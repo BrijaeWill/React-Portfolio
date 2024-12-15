@@ -2,6 +2,7 @@ import Header from '/Components/header.jsx'
 import Footer from '../Components/footer.jsx'
 import About from'../Components/About.jsx'
 import Contact from'../Components/Contact.jsx'
+import Projects from '../Components/project.jsx'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import '/Main/App.css'
 function App() {
@@ -14,6 +15,7 @@ function App() {
               {/* Define the About Page Route */}
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/portfolio" element={<Projects />} />
             </Routes>
           </main>
   
