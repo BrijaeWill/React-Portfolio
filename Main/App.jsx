@@ -14,7 +14,7 @@ function App() {
           <main>
             <Routes>
               {/* Define the About Page Route */}
-              <Route path="/about" element={<About />} />
+              <Route path="/" element={<About />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/portfolio" element={<Projects />} />
               <Route path="/resume" element={<Resume />} />
